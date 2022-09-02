@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@ExtendWith(SpringExtension.class)
+
 @WebMvcTest(controllers = HelloController.class) //Web에 집중할 수 있는 테스트 어노테이션.
 public class HelloControllerTest {
 
